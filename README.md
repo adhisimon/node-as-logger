@@ -13,6 +13,17 @@ It just init winston to display fancy colored logs on console.
 Also put logs on rotating files if it's not running on
 unit test.
 
+- [adhisimon-logger](#adhisimon-logger)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [Use on multiple module](#use-on-multiple-module)
+      - [Main module](#main-module)
+    - [Other modules](#other-modules)
+  - [Unit test detection](#unit-test-detection)
+  - [Changelog](#changelog)
+  - [TODO](#todo)
+  - [LICENSE](#license)
+
 ## Installation
 ```shell
 npm i adisimon-logger
