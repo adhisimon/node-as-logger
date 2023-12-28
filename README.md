@@ -53,6 +53,9 @@ Or you can pass created logger instance as a parameter.
 ## Unit test detection
 It detect unit test by detecting global "describe" function does exists.
 
+## Changelog
+See [CHANGELOG.md](CHANGELOG.md) file.
+
 ## TODO
 - http transport
 - mysql transport
