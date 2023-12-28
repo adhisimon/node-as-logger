@@ -25,5 +25,9 @@
   "dependencies": {
     "winston": "^3.11.0",
     "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "auto-changelog": "^2.4.0",
+    "semistandard": "^17.0.0"
   }
 }
