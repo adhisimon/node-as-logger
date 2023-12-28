@@ -9,7 +9,8 @@
 
 My simple logger (based on winston).
 
-It just init winston to display fancy colored logs on console.
+It just init [winston](https://github.com/winstonjs/winston) to display fancy colored logs on console
+with metadata that I think was important.
 Also put logs on rotating files if it's not running on
 unit test.
 
@@ -21,8 +22,8 @@ unit test.
     - [Other modules](#other-modules)
   - [Unit test detection](#unit-test-detection)
   - [Changelog](#changelog)
-  - [TODO](#todo)
-  - [LICENSE](#license)
+  - [Planned transports](#planned-transports)
+  - [License](#license)
 
 ## Installation
 ```shell
@@ -67,13 +68,14 @@ It detect unit test by detecting global "describe" function does exists.
 ## Changelog
 See [CHANGELOG.md](CHANGELOG.md) file.
 
-## TODO
+## Planned transports
+I have plan to implement these transports too:
 - http transport
 - mysql transport
 - amqp transport
 - redis transport
 
-## LICENSE
+## License
 This package based on [winston](https://github.com/winstonjs/winston) which
 has MIT License, so this package too.
 
