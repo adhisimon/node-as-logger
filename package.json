@@ -1,13 +1,13 @@
 {
   "name": "adhisimon-logger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "My simple logger (based on winston)",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
   "scripts": {
     "test": "mocha --bail --recursive test",
     "postversion": "git push && git push --tags",
-    "version": "auto-changelog -p && git add CHANGELOG.md; cat .gitignore npmignore-list > .npmignore; git ADD .npmignore"
+    "version": "auto-changelog -p && git add CHANGELOG.md; cat .gitignore npmignore-list > .npmignore; git add .npmignore"
   },
   "repository": {
     "type": "git",
