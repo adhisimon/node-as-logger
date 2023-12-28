@@ -52,3 +52,15 @@ Or you can pass created logger instance as a parameter.
 
 ## Unit test detection
 It detect unit test by detecting global "describe" function does exists.
+
+## TODO
+- http transport
+- mysql transport
+- amqp transport
+- redis transport
+
+## LICENSE
+This package based on [winston](https://github.com/winstonjs/winston) which
+has MIT License, so this package too.
+
+See it on [LICENSE](LICENSE) file.
