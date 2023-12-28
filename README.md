@@ -9,12 +9,29 @@
 
 My simple logger (based on winston).
 
-**WORK IN PROGRESS**
-It'll be ready soon.
-
 It just init winston to display fancy colored logs on console.
 Also put logs on rotating files if it's not running on
 unit test.
+
+## Installation
+```shell
+npm i adisimon-logger
+```
+
+## Usage
+```javascript
+const { create: createLogger } = require('adhisimon-logger');
+
+const logger = createLogger({
+  // all options are optional, here are default values
+  level: 'verbose', // or process.env.LOG_LEVEL
+  disableFileTransport: false, // it would always ignored if running on unit test
+  dir: 'logs', // or process.env.LOG_DIR
+  fileLevel: 'verbose', // will use "level" options if not specified
+  baseFilename: 'app', // or process.env.LOG_BASE_FILENAME
+  keepFiles: 31, // or process.env.LOG_KEEP_FILES
+});
+```
 
 ## Unit test detection
 It detect unit test by detecting global "describe" function does exists.
