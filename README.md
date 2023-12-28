@@ -2,6 +2,7 @@
 
 [![Version npm](https://img.shields.io/npm/v/adhisimon-logger.svg)](https://www.npmjs.com/package/adhisimon-logger)
 [![Npm package total downloads](https://img.shields.io/npm/dt/adhisimon-logger)](https://npmjs.com/package/adhisimon-logger)
+[![node.js version](https://img.shields.io/node/v/adhisimon-logger)](https://www.npmjs.com/package/adhisimon-logger)
 [![Module type: CJS](https://img.shields.io/badge/module%20type-cjs-brightgreen)](https://github.com/voxpelli/badges-cjs-esm)
 [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg)](https://github.com/standard/semistandard)
 [![jsDocs.io](https://img.shields.io/badge/jsDocs.io-reference-blue)](https://www.jsdocs.io/package/jsdoc)
