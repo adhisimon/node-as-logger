@@ -19,9 +19,6 @@ unit test.
 - [adhisimon-logger](#adhisimon-logger)
   - [Installation](#installation)
   - [Usage](#usage)
-    - [Use on multiple module](#use-on-multiple-module)
-      - [Main module](#main-module)
-    - [Other modules](#other-modules)
   - [Unit test detection](#unit-test-detection)
   - [Changelog](#changelog)
   - [Planned transports](#planned-transports)
@@ -46,23 +43,6 @@ const logger = createLogger({
   keepFiles: 31, // or process.env.LOG_KEEP_FILES
 });
 ```
-
-### Use on multiple module
-You might create logger on main module and set it as global
-so you can use it again on other modules.
-
-#### Main module
-```javascript
-const logger = require('adhisimon.logger').create();
-global.logger = logger;
-```
-
-### Other modules
-```javascript
-const logger = global.logger;
-```
-
-Or you can pass created logger instance as a parameter.
 
 ## Unit test detection
 It detect unit test by detecting global "describe" function does exists.
