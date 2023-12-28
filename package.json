@@ -1,5 +1,5 @@
 {
-  "name": "as-logger",
+  "name": "adhisimon-logger",
   "version": "0.0.1",
   "description": "My simple logger (based on winston)",
   "main": "./lib/index.js",
