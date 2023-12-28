@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "My simple logger (based on winston)",
   "main": "./lib/index.js",
+  "module": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postversion": "git push && git push --tags",
