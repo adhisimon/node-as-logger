@@ -1,6 +1,6 @@
 {
   "name": "adhisimon-logger",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "description": "My simple logger (based on winston)",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
